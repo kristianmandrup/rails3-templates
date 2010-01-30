@@ -1,0 +1,12 @@
+gem "arel", "0.2.pre", :git => "git://github.com/rails/arel.git"
+gem "rack", "1.1.0", :git => "git://github.com/rails/rack.git"
+gem "rack-mount" #,    :git => "git://github.com/rails/rack-mount.git"
+gem "rack-test",     "~> 0.5.0"
+gem "erubis",        "~> 2.6.0"
+gem "rails", "3.0.pre", :git => "git://github.com/rails/rails.git"
+
+# mongo DB and mapper
+gem "mongo", "~> 0.18.2"
+gem "mongo_ext", "~> 0.18.2"
+gem "mongo_mapper",  "~> 0.6.10 "
+gem "mongo_model", "~> 0.0.1"
